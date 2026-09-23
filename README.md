@@ -16,9 +16,6 @@ Phần mềm chuyên nghiệp quản lý hiệu ứng âm thanh, Meme Sound FX v
 - 🍎 **Bản dành cho macOS (.zip):**  
   [👉 Tải ngay DUCTAM24VN FACTORY MEME cho macOS](https://github.com/ductam24vndev/ductam24vn-factory-meme/releases/latest/download/DUCTAM24VN_FACTORY_MEME_macOS_v1.0.zip)
 
-- 🔗 **Trang tổng hợp tất cả các bản phát hành:**  
-  https://github.com/ductam24vndev/ductam24vn-factory-meme/releases/latest
-
 ---
 
 ## 1. HƯỚNG DẪN CÀI ĐẶT TRÊN WINDOWS (Windows 10 / 11)

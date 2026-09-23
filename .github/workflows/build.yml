@@ -9,7 +9,11 @@ jobs:
   build:
     strategy:
       matrix:
-        os: [windows-latest, macos-latest]
+        include:
+          - os: windows-latest
+            artifact_name: "DUCTAM24VN_FACTORY_MEME_Windows_v1.0"
+          - os: macos-latest
+            artifact_name: "DUCTAM24VN_FACTORY_MEME_macOS_v1.0"
     runs-on: ${{ matrix.os }}
 
     steps:
@@ -39,5 +43,5 @@ jobs:
     - name: Upload Artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: App-${{ matrix.os }}
+        name: ${{ matrix.artifact_name }}
         path: dist/
